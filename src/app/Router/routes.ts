@@ -1,4 +1,4 @@
-import * as MainView from '../ListView';
+import ListView from '../ListView/component';
 import { Menu2 } from '../Menu2';
 
 export interface Route {
@@ -10,7 +10,7 @@ export interface Route {
 export const ROUTES: Route[] = [
   {
     path: '/',
-    component: MainView,
+    component: ListView,
     exact: true,
   },
   {
