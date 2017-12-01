@@ -1,4 +1,4 @@
-import { MainView } from '../ListView';
+import * as MainView from '../ListView';
 import { Menu2 } from '../Menu2';
 
 export interface Route {
